@@ -23,13 +23,15 @@ client_scripts {
     'client/functions.lua',
     'client/loops.lua',
     'client/events.lua',
-    'client/drawtext.lua'
+    'client/drawtext.lua',
+    'client/functions/animation.lua',
 }
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'server/main.lua',
     'server/functions.lua',
+    'server/functions/vehicle.lua',
     'server/player.lua',
     'server/events.lua',
     'server/commands.lua',
